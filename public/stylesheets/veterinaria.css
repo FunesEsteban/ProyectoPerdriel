@@ -1,0 +1,144 @@
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    color: blueviolet;
+}
+
+p {
+    color: yellow;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero {
+    background: url(../images/header.PNG) no-repeat;
+    background-size: cover;
+    height: 0.4vh;
+    min-height: 777px;
+    color: white;
+}
+
+.figure1 {
+    left: 200px;
+    position: relative;
+    top: 50px;
+}
+
+.figure2 {
+    right: 1050px;
+    position: absolute;
+    top: 2100px;
+}
+
+footer {
+    background-color:rgb(222, 222, 144);
+    height: 50px;
+    width: 1300px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+h4 {
+    color:rgb(77, 135, 255);
+    font-size: 20px;
+    font-style:normal
+}
+
+h5 {
+    color: peru;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.staff {
+    background-color:rgb(255, 200, 250);
+}
+
+h6 {
+    color:black;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.lista-novedades {
+    margin: 0;
+    padding: 0%;
+    list-style-type: none;
+}
+
+.lista-novedades li a {
+    margin: 4px 0;
+}
+
+.lista-novedades li a {
+    background-color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color: #dadada;
+}
+
+.lista-novedades li a img {
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: lrem;
+    opacity: 0.7;
+}
+
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.scroll_section {
+    scroll-margin-top: 60px;
+}
+
+
+
+.dark-mode-button {
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:blueviolet;
+    top: 50px;
+    right: 20px;
+    padding: 20px;
+    background-color:white;
+}
+
+html.dark-mode {
+    filter: invert(100%);
+    transition: .4s ease all;
+}
+
+html.dark-mode img {
+    filter: invert(100%);
+}
+
+html.dark-mode .hero {
+    filter: invert(100%);
+    transition: .4s ease all;
+}
+
+html.dark-mode .navbar {
+    filter: invert(100%);
+    transition: .4s ease all;
+}
+
+html.dark-mode .mapa {
+    filter: invert(100%);
+}
