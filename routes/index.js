@@ -21,13 +21,13 @@ router.post('/', async (req, res, next) => {
   var nombre = req.body.nombre;
   var apellido = req.body.apellido;
   var email = req.body.email;
-  var telefono = req.body.telefono;
+  var tel = req.body.tel;
   var mensaje = req.body.mensaje;
 
   var obj = {
     to: 'estebaneduardofunes@gmail.com',
     subjet: 'CONTACTO WEB',
-    html: nombre + " " + apellido + " se contacto a través de la web y quiere más información a este correo : " + email + ". <br> Además, hizo este comentario : " + mensaje + ". <br> Su tel es: " + telefono
+    html: nombre + " " + apellido + " se contacto a través de la web y quiere más información a este correo : " + email + ". <br> Además, hizo este comentario : " + mensaje + ". <br> Su tel es: " + tel
   }
 
   var transport = nodemailer.createTransport({
